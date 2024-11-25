@@ -30,6 +30,6 @@ jobs:
       run: |
          skopeo copy docker://docker.io/library/mysql docker://crpi-95pqkq01wb6ftxqr.cn-shanghai.personal.cr.aliyuncs.com/syxdockerlq/mysql
          skopeo copy docker://docker.io/library/php:latest docker://crpi-95pqkq01wb6ftxqr.cn-shanghai.personal.cr.aliyuncs.com/syxdockerlq/php
-         skopeo copy docker://docker.io/library/php:v7.4 docker://crpi-95pqkq01wb6ftxqr.cn-shanghai.personal.cr.aliyuncs.com/syxdockerlq/php:7.4
+         skopeo copy docker://docker.io/library/php:7.4 docker://crpi-95pqkq01wb6ftxqr.cn-shanghai.personal.cr.aliyuncs.com/syxdockerlq/php:7.4
          skopeo copy docker://docker.io/library/nginx docker://crpi-95pqkq01wb6ftxqr.cn-shanghai.personal.cr.aliyuncs.com/syxdockerlq/nginx
          skopeo copy docker://docker.io/library/redis docker://crpi-95pqkq01wb6ftxqr.cn-shanghai.personal.cr.aliyuncs.com/syxdockerlq/redis

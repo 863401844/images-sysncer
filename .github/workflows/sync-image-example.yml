@@ -34,4 +34,4 @@ jobs:
          skopeo copy docker://docker.io/library/php:5.6-fpm docker://crpi-95pqkq01wb6ftxqr.cn-shanghai.personal.cr.aliyuncs.com/syxdockerlq/php:5.6-fpm
          skopeo copy docker://docker.io/library/nginx docker://crpi-95pqkq01wb6ftxqr.cn-shanghai.personal.cr.aliyuncs.com/syxdockerlq/nginx
          skopeo copy docker://docker.io/library/redis docker://crpi-95pqkq01wb6ftxqr.cn-shanghai.personal.cr.aliyuncs.com/syxdockerlq/redis
-         skopeo copy docker://docker.io/library/deluxebear/n8n:2.0.0-chs docker://crpi-95pqkq01wb6ftxqr.cn-shanghai.personal.cr.aliyuncs.com/syxdockerlq/deluxebear/n8n:2.0.0-chs
+         skopeo copy docker://docker.io/deluxebear/n8n:2.0.0-chs docker://crpi-95pqkq01wb6ftxqr.cn-shanghai.personal.cr.aliyuncs.com/syxdockerlq/n8n:2.0.0-chs

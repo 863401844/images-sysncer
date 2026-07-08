@@ -32,6 +32,8 @@ jobs:
           skopeo copy docker://docker.io/library/php:7.4-fpm docker://crpi-95pqkq01wb6ftxqr.cn-shanghai.personal.cr.aliyuncs.com/syxdockerlq/php:7.4-fpm
           skopeo copy docker://docker.io/library/php:5.6-fpm docker://crpi-95pqkq01wb6ftxqr.cn-shanghai.personal.cr.aliyuncs.com/syxdockerlq/php:5.6-fpm
           skopeo copy docker://docker.io/library/php:8.2-fpm docker://crpi-95pqkq01wb6ftxqr.cn-shanghai.personal.cr.aliyuncs.com/syxdockerlq/php:8.2-fpm
+          skopeo copy docker://docker.io/library/php:8.1.34-fpm docker://crpi-95pqkq01wb6ftxqr.cn-shanghai.personal.cr.aliyuncs.com/syxdockerlq/php:8.1.34-fpm
+          skopeo copy docker://docker.io/library/php:8.0-fpm docker://crpi-95pqkq01wb6ftxqr.cn-shanghai.personal.cr.aliyuncs.com/syxdockerlq/php:8.0-fpm
           skopeo copy docker://docker.io/library/nginx docker://crpi-95pqkq01wb6ftxqr.cn-shanghai.personal.cr.aliyuncs.com/syxdockerlq/nginx
           skopeo copy docker://docker.io/library/redis docker://crpi-95pqkq01wb6ftxqr.cn-shanghai.personal.cr.aliyuncs.com/syxdockerlq/redis
           skopeo copy docker://docker.io/library/eclipse-temurin:21-jdk docker://crpi-95pqkq01wb6ftxqr.cn-shanghai.personal.cr.aliyuncs.com/syxdockerlq/eclipse-temurin:21-jdk
